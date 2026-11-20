@@ -2,7 +2,7 @@
 
 Ich studiere an der Uni Kassel, arbeite in einem Ingenieurbüro und tanze, sooft es geht: in der Standard- und der Lateinformation vom [Rot-Weiss-Klub Kassel](https://rwk-kassel.de/turnier-formation/) und mit meiner Tanzpartnerin auf dem Weg zu unseren ersten Turnieren. Außerdem bin ich Teamcaptain vom [ETDS-Kassel-Team](https://team.etds-kassel.de), mit dem wir zum European Tournament for Dancing Students fahren.
 
-Programmiert wird meistens abends und nachts, und fast immer, weil mir beim Tanzen oder im Alltag etwas gefehlt hat. <!-- stats -->Dieses Jahr sind dabei schon **3.529 Commits** in **9 Projekten** zusammengekommen.<!-- /stats -->
+Programmiert wird meistens abends und nachts, und fast immer, weil mir beim Tanzen oder im Alltag etwas gefehlt hat. <!-- stats -->Dieses Jahr sind dabei schon **3.530 Commits** in **9 Projekten** zusammengekommen.<!-- /stats -->
 
 ![Meine Sprachen](/github-metrics.svg)
 
