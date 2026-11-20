@@ -1,14 +1,10 @@
-# Writes this year's commits, projects and top languages into README.md between <!-- stats --> and <!-- /stats -->
+# Writes this year's commits and projects into README.md between <!-- stats --> and <!-- /stats -->
 import datetime, json, os, re, urllib.request
-from collections import Counter
 
 QUERY = '''query($from: DateTime!) { viewer {
   contributionsCollection(from: $from) {
     totalCommitContributions
     commitContributionsByRepository(maxRepositories: 100) { repository { name } }
-  }
-  repositories(ownerAffiliations: OWNER, isFork: false, first: 100) {
-    nodes { languages(first: 10) { edges { size node { name } } } }
   }
 } }'''
 
@@ -17,14 +13,8 @@ def sentence(viewer):
     c = viewer['contributionsCollection']
     # the profile repo itself is not a project
     projects = [r for r in c['commitContributionsByRepository'] if r['repository']['name'] != 'Siddo987']
-    langs = Counter()
-    for repo in viewer['repositories']['nodes']:
-        for e in repo['languages']['edges']:
-            langs[e['node']['name']] += e['size']
-    top = [name for name, _ in langs.most_common(3)]
     commits = f"{c['totalCommitContributions']:,}".replace(',', '.')
-    return (f'Dieses Jahr sind dabei schon **{commits} Commits** in **{len(projects)} Projekten** zusammengekommen, '
-            f'am meisten in {", ".join(top[:-1])} und {top[-1]}.')
+    return f'Dieses Jahr sind dabei schon **{commits} Commits** in **{len(projects)} Projekten** zusammengekommen.'
 
 
 year = datetime.date.today().year
