@@ -1,0 +1,21 @@
+# Rewrites the stats sentence in README.md every night; METRICS_TOKEN needs the repo scope so private repos count
+name: Stats
+on:
+  schedule: [{cron: "0 3 * * *"}]
+  workflow_dispatch:
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 .github/stats.py
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+      - run: |
+          git diff --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Update stats"
+          git push

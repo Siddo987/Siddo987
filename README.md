@@ -1,23 +1,18 @@
 ### Hi, ich bin Jakob 👋
 
-Ich baue Software für den Tanzsport, für Turniere, Formationsteams und Partys, und dazu Werkzeuge, die ich selbst jeden Tag benutze. Alles läuft selbst gehostet auf meinem eigenen Server, deshalb sind die meisten Repos privat.
+Ich studiere an der Uni Kassel, arbeite in einem Ingenieurbüro und tanze, sooft es geht: in der Standard- und der Lateinformation vom [Rot-Weiss-Klub Kassel](https://rwk-kassel.de/turnier-formation/) und mit meiner Tanzpartnerin auf dem Weg zu unseren ersten Turnieren. Außerdem bin ich Teamcaptain vom [ETDS-Kassel-Team](https://team.etds-kassel.de), mit dem wir zum European Tournament for Dancing Students fahren.
 
-**Tanzsport**
+Programmiert wird meistens abends und nachts, und fast immer, weil mir beim Tanzen oder im Alltag etwas gefehlt hat. <!-- stats -->Dieses Jahr sind dabei schon **3.528 Commits** in **9 Projekten** zusammengekommen, am meisten in TypeScript, JavaScript und PHP.<!-- /stats -->
 
-- **[COMPEDE](https://compede.eu)**: mein größtes Projekt. Ein komplettes System für Tanzturniere im Teammodus, von der Anmeldung bis zum Live-Ergebnis. Die Wertungsrichter werten auf dem Tablet, das Publikum sieht die Ergebnisse sofort auf dem Handy.
-- **[RWKREATOR](https://rwkreator.sidowski.de)** ([Code](https://github.com/Siddo987/formation-builder)): Choreos für Formationsteams planen statt in Excel. Bilder zeichnen, mit Musik abspielen, und alle Tänzerinnen und Tänzer sehen ihren eigenen Weg auf dem Handy.
-- **[Deathstep](https://deathstep.etds-kassel.de)** ([Code](https://github.com/Siddo987/deathstep-dance-game)): Werwolf auf der Tanzfläche. Ein Paar ist heimlich der Mörder und tötet beim Tanzen per Berührung, danach stimmen alle am Handy ab, wer es war.
-- **[ETDS Kassel](https://team.etds-kassel.de)**: die Website der Kasseler Studierenden, die zum European Tournament of Dancing Students fahren, mit Fotogalerie und [Live-Heats](https://heats.etds-kassel.de) samt Push aufs Handy.
+**Was ich so baue**
 
-**Für mich selbst**
+- **[COMPEDE](https://compede.eu)** ist mein größtes Projekt: eine App, mit der sich Tanzturniere wie das ETDS komplett organisieren lassen, von der Anmeldung über die Wertung bis zu den Live-Ergebnissen auf dem Handy.
+- **[RWKREATOR](https://rwkreator.sidowski.de)** ist aus meiner Formation heraus entstanden. Statt Choreos in Excel zu planen, zeichnet man die Bilder, spielt sie mit der Musik ab, und alle sehen auf dem Handy, wo sie auf welchem Takt stehen müssen. ([Code](https://github.com/Siddo987/formation-builder))
+- **[Deathstep](https://deathstep.etds-kassel.de)** ist ein Partyspiel für Tanzgruppen, quasi Werwolf auf der Tanzfläche: Ein Paar sind heimlich die Mörder und erwischen andere beim Tanzen, danach wird am Handy abgestimmt. ([Code](https://github.com/Siddo987/deathstep-dance-game))
+- Für unser ETDS-Team gibt es außerdem die [Teamseite](https://team.etds-kassel.de) und [Live-Heats](https://heats.etds-kassel.de), die einem eine Nachricht schicken, sobald eine neue Heatliste mit der eigenen Startnummer rauskommt.
 
-- **Todo-Cap**: meine To-do- und Projekt-App, im Browser, als Android-App und als iPhone-Widget.
-- **Datei Wolke**: meine eigene Dropbox mit Freigabe-Links und Login per Passkey.
-- **Budget-Rechner**: Fixkosten, Rücklagen und Kontostände auf einen Blick, direkt mit dem Bankkonto verbunden.
+Dazu ein paar Sachen, die ich vor allem selbst benutze: meine To-do-App **Todo-Cap** ([Demo](https://sidowski.de/todo-demo/)), meine eigene **[Cloud](https://cloud.sidowski.de)** (zum Ausprobieren mit `demo` / `demo` anmelden) und einen Budget-Rechner, der direkt mit meinem Konto verbunden ist.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Siddo987&locale=de&hide_border=true&theme=github-dark">
-  <img alt="GitHub-Streak" src="https://streak-stats.demolab.com?user=Siddo987&locale=de&hide_border=true">
-</picture>
+Ab und zu helfe ich bei [Lychee](https://github.com/LycheeOrg/Lychee) mit, mit kleineren Features und der deutschen und spanischen Übersetzung. Dort landen auch meine Fotos: [photography.sidowski.de](https://photography.sidowski.de).
 
-![GitHub-Stats](/github-metrics.svg)
+Mehr über mich gibt es auf [sidowski.de](https://sidowski.de), oder du schreibst mir auf [LinkedIn](https://www.linkedin.com/in/jakob-sidowski) oder [Instagram](https://www.instagram.com/jakobsidowski).
