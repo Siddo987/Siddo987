@@ -16,6 +16,3 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_languages: yes
-          plugin_habits: yes
-          plugin_habits_days: 30
-          plugin_habits_charts: yes

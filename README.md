@@ -15,6 +15,9 @@ Ich baue Software für den Tanzsport, für Turniere, Formationsteams und Partys,
 - **Datei Wolke**: meine eigene Dropbox mit Freigabe-Links und Login per Passkey.
 - **Budget-Rechner**: Fixkosten, Rücklagen und Kontostände auf einen Blick, direkt mit dem Bankkonto verbunden.
 
-![GitHub-Streak](https://streak-stats.demolab.com?user=Siddo987&locale=de&hide_border=true)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Siddo987&locale=de&hide_border=true&theme=github-dark">
+  <img alt="GitHub-Streak" src="https://streak-stats.demolab.com?user=Siddo987&locale=de&hide_border=true">
+</picture>
 
 ![GitHub-Stats](/github-metrics.svg)
